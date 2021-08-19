@@ -86,5 +86,44 @@ td {
     vertical-align: inherit;
 }
 
+/* footer */
+
+.list-inline{
+    display: inline;
+    
+}
+
+.link-footer{
+    text-decoration: none;
+    color: black;
+    /* font-weight: bold; */
+    font-size: 23px;
+    padding: 1rem 1rem;
+}
+
+.footer{
+    /* background-color: var(--primary-color); */
+    padding: 2rem 0rem;
+    text-align: center;
+    color: white;   
+    border-top-right-radius: 1.1rem;
+    border-top-left-radius: 1.1rem;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    color: black;
+    font-size: 1.5rem;
+    margin: 2rem;
+}
+
+.footer i {
+    font-size: larger;
+}
+
 
 
